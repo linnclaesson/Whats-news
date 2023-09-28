@@ -1,0 +1,63 @@
+/* Style Footer */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background: rgb(34, 33, 33);
+    color: beige;
+    padding: 100px;
+    margin-top: auto;
+}
+#footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        'shortcuts services follow'
+        '. footer-logo .';
+    justify-content: center;
+}
+#footer-news {
+    display: grid;
+    grid-area: shortcuts;
+    justify-content: center;
+    align-items: start;
+}
+#footer-services {
+    display: grid;
+    grid-area: services;
+    justify-content: center;
+    align-items: start;
+}
+#footer-links {
+    display: grid;
+    grid-area: follow;
+    justify-content: center;
+    align-self: start;
+}
+#footer-logo-container {
+    display: grid;
+    grid-area: footer-logo;
+    justify-content: center;
+    padding-top: 2em;
+}
+#footer-logo {
+    color: rgb(135, 10, 66);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer-info {
+    color: rgb(22, 106, 112);
+    text-decoration: none;
+    padding-bottom: 1em;
+}
+.footer-info h3 {
+    padding-bottom: 1em;
+}
+.footer-info a:hover {
+    color: rgb(106, 179, 184);
+}
+.footer-info a:active {
+    text-decoration: underline;
+}

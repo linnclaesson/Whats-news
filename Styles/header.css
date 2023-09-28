@@ -1,0 +1,76 @@
+/* Style header*/
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 200px;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: rgb(22, 106, 112);
+    
+}
+#header-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+        'logo navbar';
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    display: grid;
+    grid-area: logo;
+    text-decoration: none;
+    color: rgb(135, 10, 66);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navbar-container {
+    display: grid;
+    grid-area: navbar;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 3em;
+}
+
+.navbar-links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  14px;
+}
+
+.navbar-links:hover {
+    color: rgb(106, 179, 184);
+}
+
+.navbar-links:active {
+    text-decoration: underline;
+}
+
+#contact-button {
+    background: rgb(22, 106, 112);
+    color: white;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+#contact-button:hover {
+    background: rgb(106, 179, 184);
+    color: white;
+}
