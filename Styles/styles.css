@@ -57,7 +57,7 @@ input:focus {
 }
 
 /* Style articles homepage */
-.article {
+article {
     border-top: solid 4px rgb(22, 106, 112);
     box-shadow: 1px 1px 5px rgb(75, 75, 75);
     background-color: rgb(249, 247, 244);
@@ -71,13 +71,13 @@ input:focus {
     width: 100%;
     height: auto;
 }
-.article h2 {
+article h2 {
     font-size: 42px;
 }
 /* Article animations */
-a .article:hover h2 {
+a article:hover h2 {
     text-decoration: underline;
 }
-a .article:hover {
-    box-shadow: 3px 3px 10px rgb(75, 75, 75);
+a article:hover {
+    box-shadow: 1px 1px 10px rgb(75, 75, 75);
 }
