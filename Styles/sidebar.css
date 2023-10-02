@@ -6,4 +6,43 @@
 #sidebar-container {
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 5px rgb(75, 75, 75);
+    background-color: rgb(249, 247, 244);
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#sidebar-container h2 {
+    background-color: rgb(22, 106, 112);
+    color: rgb(249, 247, 244);
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#sidebar-container h3 {
+    background-color: rgb(106, 179, 184);
+    color: rgb(249, 247, 244);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+#sidebar-container ul {
+    padding: 0 2.5rem;
+}
+
+#sidebar-container a {
+    text-decoration: none;
+    color: rgb(22, 106, 112);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+/* Animations */
+#sidebar-container a:hover {
+    text-decoration: none;
+    color: rgb(106, 179, 184);
+}
+#sidebar-container a:active {
+    text-decoration: underline;
 }
