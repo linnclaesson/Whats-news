@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    gap: 1em;
+    gap: 1rem;
     background: rgb(238, 238, 238);
 }
 
@@ -15,9 +15,8 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 'main sidebar';
-    gap: 1em;
-    padding-left: 200px;
-    padding-right: 200px;
+    gap: 2rem;
+    padding: 1rem 10rem;
 }
 
 /* Style main */
@@ -47,7 +46,6 @@ input[type='search'] {
 input:focus {
     background-color: rgb(106, 179, 184);
     color: rgb(255, 255, 255);
-    border-width: 3px;
     border-color: rgb(10, 114, 109);
 }
 
@@ -59,15 +57,15 @@ article {
 }
 .article-text {
     color: rgb(10, 114, 109);
-    padding-left: 10px;
-    padding-bottom: 5px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 .article-image {
     width: 100%;
     height: auto;
 }
 article h2 {
-    font-size: 42px;
+    font-size: 3rem;
 }
 /* Article animations */
 a article:hover h2 {

@@ -5,9 +5,9 @@
 }
 
 footer {
-    background: rgb(34, 33, 33);
+    background: rgb(27, 26, 26);
     color: beige;
-    padding: 100px;
+    padding: 5rem;
     margin-top: auto;
 }
 #footer-container {
@@ -40,7 +40,7 @@ footer {
     display: grid;
     grid-area: footer-logo;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 #footer-logo {
     color: rgb(135, 10, 66);
@@ -48,15 +48,15 @@ footer {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .footer-info {
-    color: rgb(22, 106, 112);
+    color: rgb(106, 179, 184);
     text-decoration: none;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 .footer-info h3 {
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 .footer-info a:hover {
-    color: rgb(106, 179, 184);
+    color: rgb(22, 106, 112);
 }
 .footer-info a:active {
     text-decoration: underline;
