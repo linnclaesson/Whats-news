@@ -46,18 +46,30 @@ footer {
     color: rgb(135, 10, 66);
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
 }
 .footer-info {
     color: rgb(106, 179, 184);
     text-decoration: none;
     padding-bottom: 1rem;
+    font-size: 1.2rem;
 }
 .footer-info h3 {
     padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
+.icons {
+    width: 1rem;
+    filter: invert(73%) sepia(10%) saturate(1273%) hue-rotate(135deg)
+        brightness(88%) contrast(91%);
+}
+/* Animations */
 .footer-info a:hover {
     color: rgb(22, 106, 112);
 }
 .footer-info a:active {
     text-decoration: underline;
 }
+
+/*filter: invert(30%) sepia(89%) saturate(423%) hue-rotate(135deg)
+        brightness(90%) contrast(87%);*/
