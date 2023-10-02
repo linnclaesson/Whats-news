@@ -37,11 +37,12 @@
 /* Style search */
 input[type='search'] {
     border-radius: 30px;
-    padding: 5px;
-    color: black;
+    padding: 0 1rem;
     border-color: rgb(10, 114, 109);
     border-style: solid;
     border-width: 1px;
+    font-size: 1rem;
+    height: 2rem;
 }
 input:focus {
     background-color: rgb(106, 179, 184);
