@@ -8,7 +8,7 @@
     flex-direction: column;
     min-height: 100vh;
     gap: 1rem;
-    background: rgb(227, 227, 225);
+    background: rgb(235, 235, 235);
 }
 #structure-container {
     display: grid;
@@ -39,6 +39,7 @@
 input[type='search'] {
     border-radius: 30px;
     padding: 0 1rem;
+    background: rgb(250, 250, 250);
     border-color: rgb(10, 114, 109);
     border-style: solid;
     border-width: 1px;
@@ -47,6 +48,6 @@ input[type='search'] {
 }
 input:focus {
     background-color: rgb(106, 179, 184);
-    color: rgb(255, 255, 255);
+    color: rgb(250, 250, 250);
     border-color: rgb(10, 114, 109);
 }
