@@ -47,6 +47,7 @@ footer {
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
+    transition: 0.3s;
 }
 .footer-info {
     color: rgb(106, 179, 184);
@@ -69,6 +70,10 @@ footer {
 }
 .footer-info a:active {
     text-decoration: underline;
+}
+#footer-logo:hover {
+    font-size: 2.5rem;
+    transition: 0.3s;
 }
 
 /*filter: invert(30%) sepia(89%) saturate(423%) hue-rotate(135deg)
