@@ -31,7 +31,7 @@
 }
 
 /* Style main content */
-#main-container a {
+main a {
     text-decoration: none;
 }
 input[type='search'] {
@@ -48,6 +48,7 @@ input:focus {
     background-color: rgb(106, 179, 184);
     color: rgb(250, 250, 250);
     border-color: rgb(10, 114, 109);
+    outline: none;
 }
 #archive-button {
     background: rgb(10, 114, 109);

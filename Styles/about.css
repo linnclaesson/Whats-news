@@ -30,3 +30,6 @@
 .about a:hover {
     color: rgb(106, 179, 184);
 }
+.about a:active {
+    text-decoration: underline;
+}
